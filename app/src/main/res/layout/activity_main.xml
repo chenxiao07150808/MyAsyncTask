@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.edu.gdmec.s07150808.myasynctask.MainActivity">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/inputSrteam"
+        android:background="#eaeaea"
+        android:layout_marginTop="10dp"
+        android:hint="@string/input_text"
+        />
+    <Button
+        android:layout_width="800px"
+        android:layout_height="100px"
+        android:background="#41e62e"
+        android:layout_marginTop="20dp"
+        android:text="@string/show_pic"
+        android:layout_gravity="center"
+        android:id="@+id/send"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/pic"
+        />
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyAsyncTask</string>
+    <string name="input_text">请输入网址</string>
+    <string name="show_pic">美图献上</string>
+</resources>
